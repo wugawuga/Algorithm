@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 //https://www.acmicpc.net/problem/10989
-public class Quzi01 {
+public class Quiz01 {
 
     public static void main(String[] args) throws IOException {
 
