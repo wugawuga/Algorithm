@@ -1,4 +1,4 @@
-package backJoon;
+package inflearn;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 // 인프런 두 배열 합치기(two pointers algorithm)
-public class Quiz17 {
+public class Quiz01 {
 
     public static ArrayList<Integer> solution(int N, int M, int[] arr1, int[] arr2) {
         ArrayList<Integer> list = new ArrayList<>();
