@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 // 인프런 최대 매출(Sliding window)
-public class Quiz19 {
+public class Quiz03 {
 
     public static int solution(int N, int K, int[] arr) {
 
