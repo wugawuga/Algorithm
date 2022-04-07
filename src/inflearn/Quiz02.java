@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 // 인프런 공통원소구하기(two pointers algorithm)
-public class Quiz18 {
+public class Quiz02 {
 
     public static ArrayList<Integer> solution(int N, int M, int[] arr1, int[] arr2) {
 
