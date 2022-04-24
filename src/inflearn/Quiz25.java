@@ -3,7 +3,7 @@ package inflearn;
 import java.util.Scanner;
 import java.util.Stack;
 
-// 인프런 올바른 괄호
+// 인프런 괄호문자제거
 public class Quiz25 {
 
     public static String solution(String str){
