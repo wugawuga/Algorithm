@@ -14,7 +14,7 @@ public class Quiz37 {
         int answer = 0;
         Queue<String> cache = new LinkedList<>();
 
-        // 캐시 크기가 0이면 항상 캐시 miss이므로 모든 수행시간이 5초임
+        // 캐시 크기가 0이면 항상 5초임
         if (cacheSize == 0) {
             return arr.length * 5;
         }
