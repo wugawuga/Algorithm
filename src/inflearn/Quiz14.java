@@ -6,7 +6,7 @@ import java.io.IOException;
 class Node {
 
     int data;
-    Node lt, rt;
+    Nodenodes lt, rt;
     public Node(int val) {
         this.data = val;
         lt = rt = null;
@@ -15,8 +15,8 @@ class Node {
 
 public class Quiz14 {
 
-    Node root;
-    public void DFS(Node root) {
+    Nodenodes root;
+    public void DFS(Nodenodes root) {
 
         if (root == null) {
             return;
@@ -39,13 +39,13 @@ public class Quiz14 {
     public static void main(String[] args) throws IOException {
 
         Quiz14 tree = new Quiz14();
-        tree.root = new Node(1);
-        tree.root.lt = new Node(2);
-        tree.root.rt = new Node(3);
-        tree.root.lt.lt = new Node(4);
-        tree.root.lt.rt = new Node(5);
-        tree.root.rt.lt = new Node(6);
-        tree.root.rt.rt = new Node(7);
+        tree.root = new Nodenodes(1);
+        tree.root.lt = new Nodenodes(2);
+        tree.root.rt = new Nodenodes(3);
+        tree.root.lt.lt = new Nodenodes(4);
+        tree.root.lt.rt = new Nodenodes(5);
+        tree.root.rt.lt = new Nodenodes(6);
+        tree.root.rt.rt = new Nodenodes(7);
         tree.DFS(tree.root);
     }
 }
